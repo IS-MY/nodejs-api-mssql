@@ -1,0 +1,13 @@
+{
+    "app": {
+        "db": {
+            "host": "localhost",
+            "port": 32768,
+            "database": "cloud_2_0",
+            "username": "pwcadmin",
+            "password": "P@ssword01"
+        },
+        "host": "localhost",
+        "port": 3000
+    }
+}
