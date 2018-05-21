@@ -29,3 +29,4 @@ https://www.duringthedrive.com/2017/05/06/models-migrations-sequelize-node/
 https://hackernoon.com/getting-started-with-sequelize-for-nodejs-applications-2854c58ffb8c
 https://github.com/feathersjs-ecosystem/feathers-sequelize
 http://cs.lmu.edu/~ray/notes/sequelizewebapps/
+https://github.com/passport/express-4.x-http-bearer-example

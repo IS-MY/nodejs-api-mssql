@@ -16,5 +16,9 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+ENV PORT 8080
+ENV HOST localhost
+ENV NODE_ENV dev
+
 EXPOSE 8080
-CMD [ "npm", "start" ]
+CMD [ "node", "server.js" ]

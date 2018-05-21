@@ -1,7 +1,7 @@
 // routes/note_routes.js
 
-module.exports = function (app, db) {
-    app.post('/notes', (req, res) => {
+module.exports = function (app, db, passport) {
+    app.post('/notes', passport.authenticate('bearer', { session: false }), (req, res) => {
 
         const newNote = {
             title: req.body.title,
@@ -105,7 +105,7 @@ module.exports = function (app, db) {
     });
 
 
-    app.get('/notes', (req, res) => {
+    app.get('/notes', passport.authenticate('bearer', { session: false }), (req, res) => {
         
         db.note.findAll({
         }).then(
